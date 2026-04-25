@@ -45,7 +45,7 @@
     body {
       margin: 0;
       min-width: 320px;
-      font-family: "Bahnschrift", "Segoe UI Variable Display", "Trebuchet MS", sans-serif;
+      font-family: "Bahnschrift", "Segoe UI Variable Display", "Trebuchet MS", sans-if;
       color: var(--text);
       background:
         radial-gradient(circle at 15% 10%, rgba(255, 202, 0, 0.1), transparent 24%),
@@ -347,7 +347,7 @@
     .hero__content,
     .hero__stage,
     .panel,
-    .service,
+    .vice,
     .story,
     .timeline__item,
     .contact,
@@ -605,28 +605,28 @@
       line-height: 1.78;
     }
 
-    .services {
+    .vices {
       display: grid;
       grid-template-columns: repeat(12, minmax(0, 1fr));
       gap: 16px;
     }
 
-    .service {
+    .vice {
       position: relative;
       border-radius: 28px;
       padding: 24px;
       overflow: hidden;
-      transform-style: preserve-3d;
+      transform-style: preve-3d;
       transition: transform 0.25s ease, border-color 0.25s ease, background 0.25s ease;
       min-height: 240px;
     }
 
-    .service:hover {
+    .vice:hover {
       border-color: rgba(255, 202, 0, 0.24);
       background: rgba(255, 255, 255, 0.08);
     }
 
-    .service::after {
+    .vice::after {
       content: "";
       position: absolute;
       inset: auto -40px -50px auto;
@@ -637,19 +637,19 @@
       pointer-events: none;
     }
 
-    .service--wide {
+    .vice--wide {
       grid-column: span 5;
     }
 
-    .service--tall {
+    .vice--tall {
       grid-column: span 4;
     }
 
-    .service--mid {
+    .vice--mid {
       grid-column: span 3;
     }
 
-    .service__num {
+    .vice__num {
       display: inline-flex;
       align-items: center;
       justify-content: center;
@@ -663,13 +663,13 @@
       margin-bottom: 18px;
     }
 
-    .service h3 {
+    .vice h3 {
       font-size: 1.4rem;
       letter-spacing: -0.04em;
       margin-bottom: 12px;
     }
 
-    .service p {
+    .vice p {
       color: var(--muted);
       line-height: 1.72;
       max-width: 30ch;
@@ -950,13 +950,13 @@
         min-height: auto;
       }
 
-      .services {
+      .vices {
         grid-template-columns: repeat(2, minmax(0, 1fr));
       }
 
-      .service--wide,
-      .service--tall,
-      .service--mid {
+      .vice--wide,
+      .vice--tall,
+      .vice--mid {
         grid-column: auto;
       }
 
@@ -1023,7 +1023,7 @@
       }
 
       .hero__metrics,
-      .services,
+      .vices,
       .timeline {
         grid-template-columns: 1fr;
       }
@@ -1071,7 +1071,7 @@
         <div class="header__inner">
           <a class="brand" href="" aria-label="АП Сервис">
             <span class="brand__logo">
-              <img src="https://jarkevithwlad.github.io/ap_sites/service/images/logo.svg" alt="Логотип АП Сервис">
+              <img src="https://jarkevithwlad.github.io/ap_sites/vice/images/logo.svg" alt="Логотип АП Сервис">
             </span>
             <span class="brand__meta">
               <small>Москва · ежедневно 9:00–21:00</small>
@@ -1080,11 +1080,11 @@
           </a>
 
           <nav class="nav" id="nav">
-            <a href="https://jarkevithwlad.github.io/ap_sites/service/index.html">Главная</a>
-            <a href="https://jarkevithwlad.github.io/ap_sites/service/index.html#services">Услуги</a>
-            <a href="https://jarkevithwlad.github.io/ap_sites/service/index.html#format">Формат</a>
-            <a href="https://jarkevithwlad.github.io/ap_sites/service/index.html#process">Этапы</a>
-            <a href="https://jarkevithwlad.github.io/ap_sites/service/index.html#contacts">Контакты</a>
+            <a href="https://jarkevithwlad.github.io/ap_sites/serivce/index.html">Главная</a>
+            <a href="https://jarkevithwlad.github.io/ap_sites/serivce/index.html#services">Услуги</a>
+            <a href="https://jarkevithwlad.github.io/ap_sites/serivce/index.html#format">Формат</a>
+            <a href="https://jarkevithwlad.github.io/ap_sites/serivce/index.html#process">Этапы</a>
+            <a href="https://jarkevithwlad.github.io/ap_sites/serivce/index.html#contacts">Контакты</a>
           </nav>
 
           <div class="header__actions">
@@ -1108,8 +1108,8 @@
                 <h1>Диагностика и ремонт, где <span>всё по делу</span>.</h1>
                 <p>Диагностика, ремонт и обслуживание автомобилей с понятной записью, быстрым контактом и ежедневным режимом работы.</p>
                 <div class="hero__actions">
-                  <a class="btn btn--primary magnet" href="https://jarkevithwlad.github.io/ap_sites/service/index.html#contacts" style="margin: 20px;">Записаться на обслуживание</a>
-                  <a class="btn btn--secondary magnet" href="https://jarkevithwlad.github.io/ap_sites/service/index.html#services" style="margin: 20px 20px 20px 0px;">Смотреть услуги</a>
+                  <a class="btn btn--primary magnet" href="https://jarkevithwlad.github.io/ap_sites/serivce/index.html#contacts" style="margin: 20px;">Записаться на обслуживание</a>
+                  <a class="btn btn--secondary magnet" href="https://jarkevithwlad.github.io/ap_sites/serivce/index.html#services" style="margin: 20px 20px 20px 0px;">Смотреть услуги</a>
                 </div>
               </div>
 
@@ -1133,7 +1133,7 @@
     height: 500px;
 ">
               <div class="hero__media">
-                <img src="https://jarkevithwlad.github.io/ap_sites/service/images/hero.webp" alt="Автомобиль и рабочее пространство сервиса">
+                <img src="https://jarkevithwlad.github.io/ap_sites/serivce/images/hero.webp" alt="Автомобиль и рабочее пространство сервиса">
               </div>
               <div class="float-card float-card--top tilt" style="">
                 <strong>Ежедневно 9:00–21:00</strong>
@@ -1212,7 +1212,7 @@
               <div class="stage" style="
     height: 400px;
 ">
-                <img src="https://jarkevithwlad.github.io/ap_sites/service/images/DSCF3859_resized.jpg.webp" alt="Сервисная зона АП Сервис" style="
+                <img src="https://jarkevithwlad.github.io/ap_sites/serivce/images/DSCF3859_resized.jpg.webp" alt="Сервисная зона АП Сервис" style="
     scale: 1.3;
 ">
               </div>
@@ -1326,7 +1326,7 @@
     <footer class="footer">
       <div class="container footer__inner">
         <div class="footer__brand">
-          <img src="https://jarkevithwlad.github.io/ap_sites/service/images/logo-footer.svg" alt="Логотип АП Сервис">
+          <img src="https://jarkevithwlad.github.io/ap_sites/serivce/images/logo-footer.svg" alt="Логотип АП Сервис">
           <span>АП Сервис</span>
         </div>
         <div class="footer__meta">

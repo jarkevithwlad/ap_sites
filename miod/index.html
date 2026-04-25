@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Натуральный, домашний мёд с собственной пасеки в Нурлатском районе Татарстана.">
+  <meta name="theme-color" content="#e95d00">
+  <title>АП-Мёд | Натуральный мёд с собственной пасеки</title>
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <div class="page-glow page-glow--top"></div>
+  <div class="page-glow page-glow--side"></div>
+  <div class="grain"></div>
+
+  <header class="site-header" data-header>
+    <div class="shell header-shell">
+      <a class="brand" href="#top" aria-label="АП-Мёд">
+        <img src="assets/Logo_med2x_1.png" alt="Логотип АП-Мёд">
+        <span>АП-Мёд</span>
+      </a>
+
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav" data-menu-toggle>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="site-nav" id="site-nav" data-nav>
+        <a href="#catalog">Каталог</a>
+        <a href="#story">О пасеке</a>
+        <a href="#delivery">Доставка</a>
+        <a href="#faq">FAQ</a>
+        <a href="#contact">Контакты</a>
+      </nav>
+
+      <a class="header-phone" href="tel:+79372865508">+7 937 286 55 08</a>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero section">
+      <div class="shell hero-shell">
+        <div class="hero-copy" data-reveal>
+          <p class="eyebrow">Натуральный, домашний мёд с собственной пасеки</p>
+          <h1>Собранный с любовью мёд из чистых мест Татарстана</h1>
+          <p class="hero-lead">
+            Без сахара, без лишнего маркетинга и без компромиссов по качеству. Только
+            натуральный ароматный мёд, собранный рядом с липовыми массивами, луговыми травами
+            и большими полями гречихи.
+          </p>
+
+          <div class="hero-actions">
+            <a class="button button--primary" href="#catalog">Перейти в каталог</a>
+            <a class="button button--secondary" href="#delivery">Доставка и оплата</a>
+          </div>
+
+          <ul class="hero-pills">
+            <li>Собственная пасека</li>
+            <li>Без добавленного сахара</li>
+            <li>Доставка по России</li>
+          </ul>
+        </div>
+
+        <div class="hero-visual tilt-shell" data-tilt data-reveal>
+          <div class="hero-visual__badge hero-visual__badge--top">
+            <strong>3</strong>
+            <span>сорта мёда</span>
+          </div>
+
+          <div class="hero-visual__badge hero-visual__badge--bottom">
+            <strong>200+</strong>
+            <span>км до крупных городов</span>
+          </div>
+
+          <div class="hero-product-frame">
+            <img class="hero-product" src="assets/Apmed33.png" alt="Фирменная банка мёда АП-Мёд">
+          </div>
+
+          <div class="hero-photo-frame hero-photo-frame--back" style="--ratio: 711 / 734;">
+            <img src="assets/Mask_Group_.png.webp" alt="Фотография пасеки">
+          </div>
+
+          <div class="hero-photo-frame hero-photo-frame--front" style="--ratio: 760 / 570;">
+            <img src="assets/WhatsApp_Image_2020-(3).jpeg.webp" alt="Фотография мёда и пасеки">
+          </div>
+
+          <img class="hero-comb" src="assets/Group_91.png.webp" alt="" aria-hidden="true">
+        </div>
+      </div>
+    </section>
+
+    <section class="section metrics">
+      <div class="shell metrics-grid">
+        <article class="metric-card" data-reveal>
+          <strong><span data-count="1000">0</span>+</strong>
+          <p>гектаров гречихи рядом с пасекой</p>
+        </article>
+        <article class="metric-card" data-reveal>
+          <strong><span data-count="200">0</span>+</strong>
+          <p>км до крупных городов и промышленных зон</p>
+        </article>
+        <article class="metric-card" data-reveal>
+          <strong><span data-count="3">0</span></strong>
+          <p>основных сорта мёда в постоянном каталоге</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section catalog" id="catalog">
+      <div class="shell">
+        <div class="section-head" data-reveal>
+          <p class="eyebrow">Каталог</p>
+          <h2>Вкусы, которые раскрываются по-разному</h2>
+          <p>
+            В основе ассортимента три сорта: гречишно-цветочный, липово-цветочный и
+            разнотравье. Каждый доступен в объёмах 1, 2, 3 и 5 литров.
+          </p>
+        </div>
+
+        <div class="catalog-layout">
+          <div class="product-list" data-reveal>
+            <button class="product-card is-active" type="button" data-product-trigger="buckwheat">
+              <span class="product-card__price">от 1 000 ₽</span>
+              <h3>Гречишно-цветочный</h3>
+              <p>Плотный вкус, тёмный оттенок и высокий уровень витаминов и микроэлементов.</p>
+              <span class="product-card__action">Открыть описание</span>
+            </button>
+
+            <button class="product-card" type="button" data-product-trigger="linden">
+              <span class="product-card__price">от 1 400 ₽</span>
+              <h3>Липово-цветочный</h3>
+              <p>Светлый, прозрачный, с мягким липовым ароматом и янтарным свечением.</p>
+              <span class="product-card__action">Открыть описание</span>
+            </button>
+
+            <button class="product-card" type="button" data-product-trigger="field">
+              <span class="product-card__price">от 700 ₽</span>
+              <h3>Разнотравье</h3>
+              <p>Луговой мёд с многослойным букетом дикорастущих трав и цветов.</p>
+              <span class="product-card__action">Открыть описание</span>
+            </button>
+          </div>
+
+          <article class="product-panel" data-reveal data-product-panel>
+            <div class="product-panel__visual">
+              <div class="product-panel__glow"></div>
+              <div class="product-panel__jar">
+                <img src="assets/Apmed33.png" alt="Банка мёда">
+              </div>
+              <div class="product-panel__photo" style="--ratio: 760 / 570;">
+                <img id="product-photo" src="assets/WhatsApp_Image_2020-(1).jpeg.webp" alt="Гречишно-цветочный мёд">
+              </div>
+              <div class="product-panel__source" id="product-source">Греча 60-80%</div>
+            </div>
+
+            <div class="product-panel__content">
+              <p class="eyebrow" id="product-kicker">Лидер по содержанию витаминов</p>
+              <h3 id="product-title">Гречишно-цветочный мёд</h3>
+              <p id="product-description">
+                Гречишный мёд лидирует по содержанию витаминов и микроэлементов среди
+                других сортов. В составе — гречиха примерно 60-80% и букет цветов
+                кипрея, донника, клевера и других луговых растений.
+              </p>
+
+              <div class="product-meta">
+                <div class="product-meta__item">
+                  <span>Цена</span>
+                  <strong id="product-price">от 1 000 ₽</strong>
+                </div>
+                <div class="product-meta__item">
+                  <span>Форматы</span>
+                  <strong>1 / 2 / 3 / 5 л</strong>
+                </div>
+              </div>
+
+              <div class="volume-pills" id="product-volumes">
+                <span>1 л</span>
+                <span>2 л</span>
+                <span>3 л</span>
+                <span>5 л</span>
+              </div>
+
+              <ul class="product-points" id="product-points">
+                <li>Без добавленного сахара и ароматизаторов</li>
+                <li>Мёд с зарегистрированной собственной пасеки</li>
+                <li>Подходит для ежедневного рациона и десертов</li>
+              </ul>
+
+              <div class="product-actions">
+                <a class="button button--primary" href="tel:+79372865508">Заказать по телефону</a>
+                <a class="button button--secondary" href="#contact">Связаться напрямую</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section story" id="story">
+      <div class="shell story-grid">
+        <div class="story-copy" data-reveal>
+          <p class="eyebrow">Что вы получаете</p>
+          <h2>Мёд, выращенный с любовью и прозрачным подходом</h2>
+          <p>
+            После цветения липы пасека кочует к большим массивам гречихи по договорённости
+            с аграриями об отсутствии химических обработок. Поэтому мёд получается
+            ароматным, насыщенным и по-настоящему чистым.
+          </p>
+
+          <div class="story-cards">
+            <article class="story-card">
+              <h3>Чистая экология</h3>
+              <p>Пасека находится в Нурлатском районе Татарстана, рядом с лесом и пойменными лугами.</p>
+            </article>
+            <article class="story-card">
+              <h3>Удобная тара</h3>
+              <p>Доступны объёмы 1, 2, 3 и 5 литров, чтобы взять мёд и для дома, и в запас.</p>
+            </article>
+            <article class="story-card">
+              <h3>Документы в порядке</h3>
+              <p>Пасека зарегистрирована и имеет необходимую юридическую и санитарную документацию.</p>
+            </article>
+          </div>
+        </div>
+
+        <div class="story-media" data-reveal>
+          <div class="story-media__primary" style="--ratio: 779 / 609;">
+            <img src="assets/Group_105.png.webp" alt="Фирменная фотография пасеки">
+          </div>
+          <div class="story-media__secondary" style="--ratio: 336 / 280;">
+            <img src="assets/photo.png.webp" alt="Деталь фирменного изображения">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section gallery" id="gallery">
+      <div class="shell">
+        <div class="section-head" data-reveal>
+          <p class="eyebrow">Фото пасеки</p>
+          <h2>Живые кадры без постановки</h2>
+          <p>
+            Использовали реальные изображения с текущего сайта и сохранили их естественные
+            пропорции, чтобы новая версия выглядела богаче, но оставалась узнаваемой.
+          </p>
+        </div>
+
+        <div class="gallery-grid">
+          <button class="gallery-card gallery-card--large" type="button" data-lightbox-src="assets/WhatsApp_Image_2020-.jpeg.webp" data-lightbox-caption="Пасека и рабочая атмосфера" style="--ratio: 655 / 491;" data-reveal>
+            <img src="assets/WhatsApp_Image_2020-.jpeg.webp" alt="Пасека и рабочая атмосфера">
+            <span>Пасека и рабочая атмосфера</span>
+          </button>
+
+          <button class="gallery-card" type="button" data-lightbox-src="assets/WhatsApp_Image_2020-(1).jpeg.webp" data-lightbox-caption="Подготовка и фасовка мёда" style="--ratio: 760 / 570;" data-reveal>
+            <img src="assets/WhatsApp_Image_2020-(1).jpeg.webp" alt="Подготовка и фасовка мёда">
+            <span>Подготовка и фасовка</span>
+          </button>
+
+          <button class="gallery-card" type="button" data-lightbox-src="assets/WhatsApp_Image_2020-(2).jpeg.webp" data-lightbox-caption="Сезон цветения и сбор" style="--ratio: 657 / 493;" data-reveal>
+            <img src="assets/WhatsApp_Image_2020-(2).jpeg.webp" alt="Сезон цветения и сбор">
+            <span>Сезон цветения</span>
+          </button>
+
+          <button class="gallery-card" type="button" data-lightbox-src="assets/WhatsApp_Image_2020-(3).jpeg.webp" data-lightbox-caption="Фирменная подача продукта" style="--ratio: 760 / 570;" data-reveal>
+            <img src="assets/WhatsApp_Image_2020-(3).jpeg.webp" alt="Фирменная подача продукта">
+            <span>Фирменная подача</span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section class="section delivery" id="delivery">
+      <div class="shell">
+        <div class="section-head" data-reveal>
+          <p class="eyebrow">Оплата и доставка</p>
+          <h2>Понятные условия без скрытых шагов</h2>
+          <p>
+            Стоимость доставки рассчитывается и оплачивается отдельно. Если вы получили
+            трек-номер СДЭК, значит платёж подтверждён, заказ оформлен и мёд уже едет к вам.
+          </p>
+        </div>
+
+        <div class="delivery-grid">
+          <article class="delivery-card" data-reveal>
+            <div class="delivery-card__logo">
+              <img src="assets/woocommerce-cdek_l.png.webp" alt="СДЭК">
+            </div>
+            <h3>География доставки</h3>
+            <p>
+              На данный момент доставка доступна по европейской части России, Уралу и Сибири,
+              в населённые пункты, где есть офисы СДЭК.
+            </p>
+          </article>
+
+          <article class="delivery-card" data-reveal>
+            <div class="bank-logos">
+              <img src="assets/Sberbank_Logo_2020.svg" alt="Сбербанк">
+              <img src="assets/VTB_Logo_2018.svg" alt="ВТБ">
+              <img src="assets/Alfa-Bank.svg" alt="Альфа-Банк">
+            </div>
+            <h3>Способы оплаты</h3>
+            <p>
+              Оплата доступна на карты Сбербанка, ВТБ и Альфа-Банка по СБП по номеру
+              телефона +7 937 286 55 08.
+            </p>
+          </article>
+
+          <article class="delivery-card delivery-card--accent" data-reveal>
+            <h3>Важно</h3>
+            <p>
+              Доставка в Сибирь и на Дальний Восток обычно дороже, поэтому после оформления
+              заказа мы связываемся с вами для уточнения деталей.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section faq" id="faq">
+      <div class="shell faq-shell">
+        <div class="section-head" data-reveal>
+          <p class="eyebrow">FAQ</p>
+          <h2>Коротко о частых вопросах</h2>
+        </div>
+
+        <div class="faq-list">
+          <details class="faq-item" data-reveal open>
+            <summary>Куда вы доставляете?</summary>
+            <p>
+              Сейчас отправляем заказы по европейской части России, Уралу и Сибири,
+              туда, где работают офисы СДЭК.
+            </p>
+          </details>
+
+          <details class="faq-item" data-reveal>
+            <summary>Как рассчитывается стоимость доставки?</summary>
+            <p>
+              Доставка считается отдельно от стоимости мёда. После оформления заказа
+              уточняем детали и подтверждаем итоговую сумму отправки.
+            </p>
+          </details>
+
+          <details class="faq-item" data-reveal>
+            <summary>Как снова сделать мёд жидким?</summary>
+            <p>
+              Самый безопасный вариант — мягкий прогрев на водяной бане или рядом с
+              источником тепла при температуре не выше 40-42 °C, чтобы сохранить полезные свойства.
+            </p>
+          </details>
+
+          <details class="faq-item" data-reveal>
+            <summary>Как оплатить заказ?</summary>
+            <p>
+              Доступен перевод по СБП на номер +7 937 286 55 08. В комментарии к оплате
+              лучше указать ФИО из заказа, чтобы мы быстрее подтвердили отправку.
+            </p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact" id="contact">
+      <div class="shell contact-shell" data-reveal>
+        <div class="contact-copy">
+          <p class="eyebrow">Контакты</p>
+          <h2>Свяжитесь с пасекой напрямую</h2>
+          <p>
+            Республика Татарстан, г. Нурлат, ул. Кирова, д. 20. Если нужен заказ,
+            консультация по сорту мёда или уточнение доставки, проще всего позвонить.
+          </p>
+
+          <div class="contact-actions">
+            <a class="button button--primary" href="tel:+79372865508">+7 937 286 55 08</a>
+            <a class="button button--secondary" href="tel:+79966059591">+7 996 605 95 91</a>
+          </div>
+        </div>
+
+        <div class="contact-card">
+          <div class="contact-card__row">
+            <span>Локация</span>
+            <strong>Нурлатский район, Республика Татарстан</strong>
+          </div>
+          <div class="contact-card__row">
+            <span>Формат</span>
+            <strong>Собственная зарегистрированная пасека</strong>
+          </div>
+          <div class="contact-card__row">
+            <span>Оффер</span>
+            <strong>Натуральный, ароматный мёд без лишних добавок</strong>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="shell footer-shell">
+      <p>АП-Мёд</p>
+      <p>Натуральный, домашний мёд с собственной пасеки</p>
+    </div>
+  </footer>
+
+  <div class="lightbox" data-lightbox hidden>
+    <button class="lightbox__backdrop" type="button" aria-label="Закрыть просмотр" data-lightbox-close></button>
+    <figure class="lightbox__dialog">
+      <button class="lightbox__close" type="button" aria-label="Закрыть просмотр" data-lightbox-close>×</button>
+      <img src="" alt="" data-lightbox-image>
+      <figcaption data-lightbox-caption></figcaption>
+    </figure>
+  </div>
+</body>
+</html>

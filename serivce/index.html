@@ -347,7 +347,7 @@
     .hero__content,
     .hero__stage,
     .panel,
-    .vice,
+    .,
     .story,
     .timeline__item,
     .contact,
@@ -605,13 +605,13 @@
       line-height: 1.78;
     }
 
-    .vices {
+    .s {
       display: grid;
       grid-template-columns: repeat(12, minmax(0, 1fr));
       gap: 16px;
     }
 
-    .vice {
+    . {
       position: relative;
       border-radius: 28px;
       padding: 24px;
@@ -621,12 +621,12 @@
       min-height: 240px;
     }
 
-    .vice:hover {
+    .:hover {
       border-color: rgba(255, 202, 0, 0.24);
       background: rgba(255, 255, 255, 0.08);
     }
 
-    .vice::after {
+    .::after {
       content: "";
       position: absolute;
       inset: auto -40px -50px auto;
@@ -637,19 +637,19 @@
       pointer-events: none;
     }
 
-    .vice--wide {
+    .--wide {
       grid-column: span 5;
     }
 
-    .vice--tall {
+    .--tall {
       grid-column: span 4;
     }
 
-    .vice--mid {
+    .--mid {
       grid-column: span 3;
     }
 
-    .vice__num {
+    .__num {
       display: inline-flex;
       align-items: center;
       justify-content: center;
@@ -663,13 +663,13 @@
       margin-bottom: 18px;
     }
 
-    .vice h3 {
+    . h3 {
       font-size: 1.4rem;
       letter-spacing: -0.04em;
       margin-bottom: 12px;
     }
 
-    .vice p {
+    . p {
       color: var(--muted);
       line-height: 1.72;
       max-width: 30ch;
@@ -950,11 +950,11 @@
         min-height: auto;
       }
 
-      .vices {
+      .s {
         grid-template-columns: repeat(2, minmax(0, 1fr));
       }
 
-      .vice--wide,
+      .--wide,
       .vice--tall,
       .vice--mid {
         grid-column: auto;
@@ -1071,7 +1071,7 @@
         <div class="header__inner">
           <a class="brand" href="" aria-label="АП Сервис">
             <span class="brand__logo">
-              <img src="https://jarkevithwlad.github.io/ap_sites/vice/images/logo.svg" alt="Логотип АП Сервис">
+              <img src="https://jarkevithwlad.github.io/ap_sites/serivce/images/logo.svg" alt="Логотип АП Сервис">
             </span>
             <span class="brand__meta">
               <small>Москва · ежедневно 9:00–21:00</small>
